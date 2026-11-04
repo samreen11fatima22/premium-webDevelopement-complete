@@ -1,0 +1,31 @@
+h1{
+    color: rgb(178, 28, 216);
+    text-align: center;
+    /* text-align: end; */
+    /* css3 uses 2 new values start and end in place of right and left both have same meaning */
+    background-color: rgb(214, 203, 203);
+    font-size: 50px;
+
+}
+p{
+    color: rgb(79, 6, 82);
+    background-color: whitesmoke;
+    text-align: justify;
+    font-size: 30px;
+    font-weight:900;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    line-height: 40px;
+
+}
+h2{
+    color: blue;
+    text-align: end;
+    font-size: 40px;
+    font-family: papyrus;
+/* -webkit-text-stroke: 2px #d3d018;
+   outline: 3px solid rgb(194, 68, 68);
+   outline-width: 8px; */
+
+    
+}

@@ -1,0 +1,75 @@
+* {
+  /* universal selector */
+  font-family: "Courier New", Courier, monospace;
+}
+/* element selector */
+h1,
+h3 {
+  color: #b92b27;
+}
+/* id selector */
+#login {
+  background-color: white;
+}
+#signup {
+  background-color: #b92b27;
+  color: white;
+}
+/* class selector for multiple elements   */
+.upvote {
+  background-color: green;
+  color: white;
+}
+/* decendent selector */
+.post a {
+  color: rgb(216, 13, 165);
+  background-color: yellow;
+}
+/* decendent selector */
+nav ul li a {
+  color: rgb(230, 97, 250);
+}
+/* adjacent sibling selector */
+p + h3 {
+  text-decoration: underline;
+}
+.upvote + button{
+    background-color: lightskyblue;
+    color: aliceblue;
+}
+div > input{
+
+    background-color: rgb(166, 211, 180);
+}
+/* attribute selector 
+attribute =value
+property =value*/
+
+
+input[type="text"]{
+    color: rgb(228, 14, 114);
+}
+
+input[type="password"]{
+    color: rgb(235, 215, 130);
+}
+/* pseudo class */
+input[type="password"]:hover{
+  font-size: 60px;
+}
+label:checked{
+  color: aqua;
+}
+input[type="radio"]{
+  background-color: yellow;
+  
+}
+#login:hover{
+  background-color: red;
+  color: rgb(57, 136, 206);
+}
+/* nth of type selector */
+h3:nth-last-of-type(2){
+  background-color: red;
+  color: blue;
+}

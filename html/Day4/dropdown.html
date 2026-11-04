@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+</head>
+<body>
+    <form action="/server">
+        <select name="profession" id="profession">
+            <option value="empty">choose an option</option>
+            <!-- selected s by defualt select aye ga -->
+            <option selected value="stu">Student</option>
+            <option value="dev">developer</option>
+        </select>
+
+        <label for="volume">select your volume</label>
+        <input type="range" name="volume" id="volume" min="10" max="100" step="10">
+
+        <button>submit</button>
+    </form>
+</body>
+</html>
