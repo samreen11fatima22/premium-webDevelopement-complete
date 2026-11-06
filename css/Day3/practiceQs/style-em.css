@@ -1,0 +1,19 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+#section1{
+    font-size: 15px;
+    background-color: cornflowerblue;
+}
+#section1 .div{
+    font-size: 2em;
+}
+#section2{
+    font-size: 35px;
+    background-color: pink;
+}
+#section2 .div{
+    font-size: 0.5em;
+}
+/* em is set relative to parent and relative to self  also use in font size relativity and padding foor slef  it is snowball effect  to overcome this effect we use rem  */
+

@@ -1,0 +1,28 @@
+h1{
+   color: cornflowerblue;
+   background-color: pink;
+   width: 50%;
+
+}
+#outer{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: palegreen;
+    border: 1px solid black;
+    font-size: 40px;
+    padding: 40px;
+
+}
+#inner{
+    width: 4em;
+    height: 4em;
+    background-color: rgb(247, 229, 36);
+    border: 1px solid black;
+    /* margin: 50px auto; */
+    padding: 0.5em;
+    /* padding and font sizes are realtive to parent */
+    font-size:      1.5em;
+    margin: 1em;
+
+}

@@ -1,0 +1,63 @@
+section{
+    width: 100px;
+    height: 175px;
+    border: 2px solid rgb(51, 49, 49);
+    background-color: rgb(58, 60, 61);
+    padding: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    border-radius: 2px;
+    border-radius: 999px;
+   
+    
+}
+.traffic {
+    width: 95px;
+    height: 170px;
+    border: 3px solid rgba(42, 44, 42, 0.808);
+    background-color: rgb(4, 5, 5);
+    margin: auto;
+    /* border-radius: 2px; */
+    border-radius: 999px;
+    box-shadow: 0px 0px 5px 5px rgb(207, 8, 8);
+
+   
+
+}
+.green{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: green;
+
+
+}
+.yellow{
+    margin: 0px auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: yellow;
+    
+}
+.red{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color:red;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+
+}
+#rod{
+    width: 10px;
+    height: 150px;
+    background-color:rgb(58, 60, 61);
+    margin: auto;
+    margin-top: 4px;
+    border: 1px solid rgb(14, 13, 13);
+    border-top: none;
+ box-shadow: 0px 0px 5px 2px rgb(10, 8, 8);
+}

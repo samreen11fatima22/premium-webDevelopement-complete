@@ -1,0 +1,32 @@
+h1 {
+    display: inline;
+    background-color: aliceblue;
+    color: blue;
+}
+span{
+    display: block;
+    background-color: goldenrod;
+    margin: 1px;
+    color: white;
+}
+#inline {
+    background-color: lime;
+    border: 2px solid rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+    height: 100px ;
+    width: 200px;
+    padding: 30px;
+    display: none;
+    
+}
+div {
+     background-color: lime;
+    border: 2px solid rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+    height: 200px ;
+    width: 200px;
+    padding: 30px;
+    margin: 5px;
+    display: inline-block;
+}
+
