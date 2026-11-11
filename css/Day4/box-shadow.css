@@ -1,0 +1,13 @@
+.shadow {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(234, 14, 51);
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px 5px rgb(235, 53, 83);
+    border: none;
+    text-align: center;
+    margin: auto;
+    /* padding-top: 60px; */
+
+}

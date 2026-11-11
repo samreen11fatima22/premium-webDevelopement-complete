@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: papyrus;
+}
+#container {
+  width: 80%;
+  height: 600px;
+  background-color: azure;
+  margin: 10px auto;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: row-reverse; */
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  /* align-items: flex-start; */
+  align-items: flex-start;
+  align-items: flex-baseline;
+  align-content: flex-end;
+ 
+
+}
+#green {
+    align-self:center;
+   
+}
+/* align self always in cross axis just like alighn items in row direction so no matter what is the direciton but align self will always in cross axis */
+h1 {
+  text-align: center;
+}
+#container > div {
+  width: 300px;
+  height: 100px;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}

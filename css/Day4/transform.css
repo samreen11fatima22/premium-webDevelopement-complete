@@ -1,0 +1,47 @@
+section{
+    margin-top: 100px;
+    margin: auto 100px;
+    background-color: cornflowerblue;
+
+    
+}
+div{
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(130, 178, 130);
+    text-align: center;
+    border: 2px solid black;
+    margin: 0px;
+    margin: auto;
+    
+}
+div:nth-of-type(2n) {
+    background-color: orange;
+}
+div:nth-of-type(3n) {
+    background-color: rgb(243, 193, 100);
+}
+/* hr 2nd ane wala item or hr 3rd ane wala item nth of type hoga  */
+/* rotate * move=along 360deg/
+#one {
+    transform: rotate(45deg);
+}
+/* scale =size*/
+#two {
+    transform: scale(0.5);
+    /*  it may be along 2D AND 3D ,along x-y direction 1st value= x 
+    2nd value =y */
+    /* transform: scale(0.5, 2); */
+}
+/* translate =move */
+#three {
+    transform: translate(30px);
+    transform: translate(100px, 300px );
+}
+#four {
+    transform: skew(-40deg);
+}
+#five{
+    transform: rotate(40deg) translateX(45px); 
+}

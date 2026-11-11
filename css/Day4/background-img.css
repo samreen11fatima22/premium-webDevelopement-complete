@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:papyrus;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+    background-color: greenyellow;
+    background-image: url(image/hero.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  margin-top: 0px;
+
+}
+h1 ,h2 ,p {
+    text-align: center;
+    margin: 20px;
+    text-shadow: 0px 0px 0px green 10px;
+}
