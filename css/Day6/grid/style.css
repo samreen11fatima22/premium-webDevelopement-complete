@@ -1,0 +1,35 @@
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(217, 248, 38);
+    display: inline-grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* 3 track 3 rows and 4 line in row direction */
+    grid-template-columns: repeat(3,1fr);
+    /* grid ko hmesha rows or colums m likhna hh mean 2d m best practice ha  */
+    /* row-gap: 10px;
+    column-gap: 20px; */
+    grid-gap: 30px;
+    place-items: center;
+    align-items: center;
+
+}
+.item {
+    width: 100px;
+    height: 50px;
+    /* ab hr item automatically cell m fit hojye ga container m  */
+    background-color: pink;
+    border: 2px solid black;
+    
+}
+.one {
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* grid-column: 1/4; */
+    /* grid-column: 1/ span 2; */
+    grid-column: span 2;
+    /* align-self: start; */
+    /* place-self: start; */
+    align-self: end;
+
+}

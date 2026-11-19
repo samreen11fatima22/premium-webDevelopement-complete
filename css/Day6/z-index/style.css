@@ -1,0 +1,27 @@
+.box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    /* z index defult position p apply ni hota hme position dni pdti ha ... */
+
+}
+.one {
+    background-color: blue;
+    z-index: 1;
+    top: 20px;
+    
+}
+.two {
+    background-color: rgb(179, 179, 211);
+    left: 10px;
+    bottom: 10px;
+    z-index: 4;
+
+}
+.three {
+    background-color: rgb(7, 7, 16);
+    z-index: 2;
+    bottom: 190px;
+    left: 40px;
+}
+
